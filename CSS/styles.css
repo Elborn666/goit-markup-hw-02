@@ -36,6 +36,14 @@
  .menu-tel {
     color: var(--text-color);
  }
+ .content,
+ footer {
+    background-color: #2E2F42;
+ }
+ .footer-logo,
+ .footer-text {
+    color: #ffffff;
+ }
  .menu-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -49,6 +57,7 @@
     font-weight: 700;
     line-height: 1.07;
     text-align: center;
+    color: #ffffff;
  }
 .list-title,
 .team-name,
