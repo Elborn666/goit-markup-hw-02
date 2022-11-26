@@ -30,7 +30,7 @@
  }
  .menu-email,
  .menu-tel {
-    color: var(--text-color);
+    color: inherit;
  }
 
  .menu-item:hover,
@@ -42,6 +42,18 @@
     font-weight: 800;
     text-transform: uppercase;
  }
+ .menu-item:hover,
+ .menu-item:focus {
+   color: var(--primery-band);
+ }
+ .menu-email:hover,
+ .menu-email:focus {
+   color: var(--primery-band);
+ }
+ .menu-tel:hover,
+ .menu-tel:focus {
+   color: var(--primery-band);
+ }  
  .menu-list {
     font-weight: 700;
  }
@@ -76,10 +88,6 @@
  }
  a {
     text-decoration: none;
- }
- a:hover,
- a:focus {
-    color: var(--primery-band);
  }
  button {
     line-height: 1.18;
